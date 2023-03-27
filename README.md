@@ -1,5 +1,9 @@
 # alien-el
 Execute Elisp code within comments of buffers for other programming languages.
+Insert the return value of the evaluated Elisp form if it is a string.
+Ignore the value if it is not a string.
+The forms are directly evaluated in the program buffer, so setting and retrieving
+local variables works.
 
 Documented example:
 
